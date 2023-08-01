@@ -20,21 +20,18 @@ docker run -p 9092:9092 \
 confluentinc/cp-kafka
 ```
 
+
 ```
 ## Running Locally
-
 - Run Multiple Consumers
-
 ```bash
 node consumer.js <GROUP_NAME>
 ```
-
 - Create Producer
-
 ```bash
 node producer.js
 ```
 ```bash
-> vinay south
-> nitin north
+> tony south
+> tony north
 ```
